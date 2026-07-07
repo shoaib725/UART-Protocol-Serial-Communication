@@ -1,0 +1,8 @@
+void setup() {
+  Serial.begin(9600);   // Configure UART: 9600 baud, 8N1
+}
+ 
+void loop() {
+  Serial.println("Embedded Systems & IOT");
+  delay(1000);          // Repeat once per second
+}
